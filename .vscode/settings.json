@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}/qiko_smart_device",
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/qiko_smart_device"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths":[["",20, true]]
+}

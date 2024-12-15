@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qiko-smart-device"
+version = "0.1.0"
+description = ""
+authors = ["miaque <miaque@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.10.3"
+pydantic-settings = "^2.7.0"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
